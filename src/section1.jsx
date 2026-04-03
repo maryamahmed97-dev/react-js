@@ -11,15 +11,18 @@ export default function Sectionone() {
         </div>
         <div className="col-6">
           <h2>Apple iPhone 14 Pro Max</h2>
-          <h3>
-            $1399 <span>$1499</span>
+          <h3 className="d-flex gap-3">
+            $1399
+            <span>
+              <s className="text-secondary">$1499</s>
+            </span>
           </h3>
           <p>
             Enhanced capabilities thanks toan enlarged display of 6.7 inchesand
             work without rechargingthroughout the day. Incredible photosas in
             weak, yesand in bright lightusing the new systemwith two cameras
           </p>
-          <div className="btn-container">
+          <div className="btn-container d-flex gap-3 mb-3">
             <button type="button" class="btn btn-light">
               Add To Wishlist
             </button>
